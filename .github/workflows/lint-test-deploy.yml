@@ -1,4 +1,4 @@
-name: Lint, Test and Deploy
+name: Lint Test and Deploy
 on: workflow_dispatch
 jobs:
   lint-test-deploy:
