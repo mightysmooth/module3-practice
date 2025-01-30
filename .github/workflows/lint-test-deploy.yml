@@ -1,1 +1,12 @@
 name: Lint, Test and Deploy
+on: workflow_dispatch
+jobs:
+  lint-test-deploy:
+    runs-on: unbuntu-latest
+    steps:
+      - name: lint
+        run: echo "linting..."
+      - name: test
+        run: echo "testing..."
+      - name: deploy
+        run: echo "deploying..."
