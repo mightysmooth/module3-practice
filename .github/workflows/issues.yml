@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Issue Raised
-        run: echo "An issue has been raised..."
+        run: echo "${{toJson(github.event)}}"
