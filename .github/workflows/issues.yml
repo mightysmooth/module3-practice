@@ -1,0 +1,10 @@
+name: Issues
+on:
+  issues:
+    types: [opened]
+jobs:
+  issue-raised:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue Raised
+        run: echo "An issue has been raised..."
